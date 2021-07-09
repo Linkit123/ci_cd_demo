@@ -1,0 +1,10 @@
+services:
+  vexe:
+    build:
+      context: .
+    ports:
+      - "8081:8085"
+    networks:
+      - internal
+networks:
+  internal:

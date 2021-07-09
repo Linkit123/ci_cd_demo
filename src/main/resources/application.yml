@@ -1,0 +1,7 @@
+server:
+  port: 8085
+spring:
+  datasource:
+    url: jdbc:postgresql://10.22.7.4:5432/dbtestdvtt
+    username: vexe
+    password: vexe123
